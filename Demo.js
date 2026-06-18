@@ -17,6 +17,10 @@ console.log(arr)
 arr.pop()
 console.log(arr)
 
+for(let i=0;i<arr.length;i++){
+    console.log(arr[is])
+}
+
 function example(){
     console.log("I am writting something")
 }
@@ -31,6 +35,6 @@ input.addEventListener("input",()=>{
     output.textContent=input.value
 })
 
-const ptag=document.createElement("h1")
-ptag.textContent="Some text"
+const ptag = document.createElement("h1")
+ptag.textContent = "Some text"
 document.body.appendChild(ptag)
